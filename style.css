@@ -9,6 +9,11 @@ ul {
     list-style-type: none;
 }
 
+.left-body {
+    font-size: 27px;
+    font-weight: 900;
+}
+
 a {
     color: white;
     text-decoration: none;
