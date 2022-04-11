@@ -3,12 +3,26 @@
     font-weight: 900;
     background-color: #1F2937;
     color: white;
-    
+    display: flex;
+    padding: 8px;
+    justify-content: space-around;
 }
+
+
 
 ul {
     list-style-type: none;
+
+    gap: 27px;
+    display: flex;
 }
+
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 
 .left-body {
     font-size: 27px;
