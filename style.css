@@ -3,6 +3,7 @@
     font-weight: 900;
     background-color: #1F2937;
     color: white;
+    
 }
 
 ul {
@@ -20,4 +21,39 @@ a {
     font-size: 18px;
 }
 
+.testi {
+    padding: 35px;
+    font-size: 30px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
 
+.test-text{
+    font-style: italic;
+}
+
+.test-author {
+    font-weight: 900;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 30px;
+}
+
+.cta {
+    background-color: #3882f6;
+    margin: 20px;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 36px;
+    font-style:italic;
+}
