@@ -1,3 +1,10 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+
 .header {
     font-size: 27px;
     font-weight: 900;
@@ -26,7 +33,6 @@ ul {
 
 .body {
     display: flex;
-    
     padding: 8px; 
     justify-content: space-around;
     align-items: center;   
@@ -92,10 +98,21 @@ a {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    
+    justify-content: space-around;
+    
+    
 }
 
 .test-text{
     font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+    margin: 30px;
+    max-width: 700px;
+    text-align: end;
 }
 
 .test-author {
