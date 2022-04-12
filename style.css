@@ -78,12 +78,16 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 52px;
+    padding: 30px;
+    
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px;
+    margin: 50px;
     
 }
 
@@ -111,8 +115,6 @@ a {
     justify-content:center;
     padding: 30px;
     margin: 30px;
-    max-width: 700px;
-    text-align: end;
 }
 
 .test-author {
@@ -120,7 +122,6 @@ a {
     display: flex;
     align-items: flex-end;
     justify-content: end;
-    padding: 30px;
 }
 
 .cta {
