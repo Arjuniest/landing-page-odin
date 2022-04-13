@@ -96,6 +96,7 @@ a {
     
 }
 
+
 .testi {
     padding: 35px;
     font-size: 30px;
@@ -124,13 +125,42 @@ a {
     justify-content: end;
 }
 
+
+
+
 .cta {
     background-color: #3882f6;
-    margin: 20px;
-    padding: 20px;
-    font-size: 36px;
-    font-weight: 600;
+    margin: 70px;
+    padding: 60px;
 }
+
+.cta-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: 600;    
+    color: white;
+    font-size: 30px;
+}
+.cta-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.883);
+    font-size: 25px;
+}
+
+button {
+    border: 2px solid rgba(255, 255, 255, 0.883);
+    border-radius: 9px;
+    background-color: #3882f6;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding: 5px 39px;
+    
+}
+
 
 
 
