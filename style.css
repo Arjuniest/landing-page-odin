@@ -170,7 +170,8 @@ button {
 
 .footer {
     background-color: #1F2937;
-    color: white;
-    font-size: 36px;
-    font-style:italic;
+    color: rgba(255, 255, 255, 0.883);
+    font-size: 25px;
+    margin: 0;
+    padding: 55px;
 }
