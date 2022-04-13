@@ -141,13 +141,17 @@ a {
     font-weight: 600;    
     color: white;
     font-size: 30px;
-}
-.cta-sub {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.cta-sub {
+    
     color: rgba(255, 255, 255, 0.883);
     font-size: 25px;
+    display: flex;
+    align-items: center;
+    
 }
 
 button {
