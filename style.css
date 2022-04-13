@@ -64,11 +64,21 @@ a {
     font-size: 18px;
 }
 
-.container.img{
-    width: 100px;
-    height: 100px;
-    gap: 32px;
+img {
     
+    width: 75;
+    height: 75;
+    border-radius: 5;
+}
+
+.info img {
+    outline: solid #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    
+
+
 }
 
 .title {
@@ -88,7 +98,7 @@ a {
     justify-content: center;
     padding: 50px;
     margin: 50px;
-    
+    gap: 35px;
 }
 
 .info {
