@@ -1,10 +1,12 @@
+
+
 body {
     background-color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', arial;
 }
 
-
+/* Header Logo part */
 .header {
     font-size: 27px;
     font-weight: 900;
@@ -30,6 +32,13 @@ ul {
     display: flex;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
 
 .left, .right {
     display: flex;
@@ -37,6 +46,8 @@ ul {
     gap: 16px;
   }
 
+
+  /*Next part i.e the .body part */
 .body {
     display: flex;
     padding: 8px; 
@@ -66,18 +77,8 @@ ul {
     flex-direction: column;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
 
-img {
-    
-    width: 75;
-    height: 75;
-    border-radius: 5;
-}
+/* Informations tab, i.e the .title part */
 
 .info img {
     outline: solid #3882f6;
@@ -114,6 +115,7 @@ img {
     
 }
 
+/*Testimonials part, i.e .testi */
 
 .testi {
     padding: 35px;
@@ -144,7 +146,7 @@ img {
 }
 
 
-
+/*CTA part i.e, .cta  */
 
 .cta {
     background-color: #3882f6;
@@ -184,7 +186,7 @@ button {
 }
 
 
-
+/*Footer */
 
 .footer {
     background-color: #1F2937;
