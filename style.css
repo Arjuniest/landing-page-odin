@@ -55,6 +55,7 @@ a {
     align-items: center;   
     background-color: #1F2937;
     color: white;
+    
 }
 
 .right-body{
@@ -65,8 +66,8 @@ a {
 }
 
 .awesome {
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 999;
     text-align: start;
 }
 
@@ -81,6 +82,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .body button {
