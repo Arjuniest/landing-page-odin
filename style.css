@@ -65,11 +65,17 @@ a {
 }
 
 .awesome {
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
     text-align: start;
 }
 
+.subtext {
+    text-align: start;
+    color: #ffffffe8;
+    font-size: 19px;
+    font-weight: 450;
+}
 
 .left-body {
     display: flex;
